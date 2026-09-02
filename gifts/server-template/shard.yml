@@ -1,0 +1,11 @@
+# shard.yml
+name: myservice-mcp
+version: 0.1.0
+
+crystal: ">= 1.21.0"
+
+dependencies:
+  mcp:
+    git: https://github.com/shpeckman/crystal-mcp.git
+
+license: MIT
