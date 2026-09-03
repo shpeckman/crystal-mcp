@@ -43,7 +43,7 @@ dependencies:
 (or `path: /path/to/crystal-mcp` for a local checkout), then `shards install` and:
 
 ```crystal
-require "mcp"
+require "crystal-mcp"
 ```
 
 ## Quick start
@@ -51,7 +51,7 @@ require "mcp"
 A stdio server exposing one tool, one resource, and one prompt:
 
 ```crystal
-require "mcp"
+require "crystal-mcp"
 
 server = MCP::Server.new(
   MCP::Implementation.new(name: "my-server", version: "1.0.0"),
@@ -80,7 +80,7 @@ server.run_stdio
 A client driving it over stdio:
 
 ```crystal
-require "mcp"
+require "crystal-mcp"
 
 client = MCP::Client.connect_stdio("crystal",
   args: ["run", "my_server.cr", "--"],
