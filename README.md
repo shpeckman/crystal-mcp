@@ -36,7 +36,7 @@ Add the dependency to your `shard.yml`:
 
 ```yaml
 dependencies:
-  mcp:
+  crystal-mcp:
     git: https://github.com/shpeckman/crystal-mcp.git
 ```
 
