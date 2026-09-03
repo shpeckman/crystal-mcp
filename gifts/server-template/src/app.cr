@@ -1,5 +1,5 @@
 # src/app.cr
-require "mcp"
+require "crystal-mcp"
 
 def build_server : MCP::Server
   server = MCP::Server.new(
